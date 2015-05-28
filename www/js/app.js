@@ -21,10 +21,12 @@ angular.module('starter', ['ionic'])
 
 .controller('QuotesCtrl', function($scope) {
   $scope.authors = [
-    { name: 'Albert Einstein' },
+    { name: 'Albert Einstein', quotes: 'You have to learn the rules of the game. And then you have to play better than anyone else.' },
     { name: 'P. Possemiers' },
     { name: 'Simon' },
-    { name: 'Ryku' }
+    { name: 'The Big Lebowski' }
   ];
 
+  
+  
 });
